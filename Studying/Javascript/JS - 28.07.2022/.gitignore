@@ -1,0 +1,15 @@
+## VSCODE
+
+# .vscode/*
+# .vscode/settings.json
+
+# local history for visual studio code
+.history/
+
+# common credential files
+# **/credentials.json
+# **/client_secrets.json
+# **/client_secret.json
+
+# readme
+**/README.md
