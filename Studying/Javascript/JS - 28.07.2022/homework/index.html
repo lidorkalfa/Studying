@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/main.js" tyle="text/javascript"></script>
+    <script src="js/main.js" type="module" defer></script>
     <link href="css/main.css" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -12,20 +12,20 @@
 
     <h1>I love</h1>
     
-    <div id="root">
+        <div id="root">
         <ul>
             <form method="get">
                 <li>
-                    Input 1:&nbsp;<input type="number" placeholder="give value to:">
+                    Input 1:&nbsp;<input type="range" min="1" max="256" placeholder="give value to:" id="rgb1">
                 </li>
                 <li>
-                   Input 3:&nbsp; <input type="number" placeholder="give value to:">
+                   Input 2:&nbsp;<input type="range" min="1" max="256" placeholder="give value to:" id="rgb2">
                 </li>
                 <li>
-                    Input 3:&nbsp;<input type="number" placeholder="give value to:">
+                    Input 3:&nbsp;<input type="range" min="1" max="256" placeholder="give value to:" id="rgb3">
                 </li>
                 <li>
-                    <input type="button" value="Go!">
+                    <input type="button" value="Go!" onClick="RgbColor()">
                 </li>
             </form>
     </ul>

@@ -3,3 +3,37 @@ ul{
     padding:0;
     margin:0;
 }
+
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      -webkit-appearance: none;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #616161;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: #000000;
+      box-shadow: -80px 0 0 80px #9b9b9b;
+    }
+
+    #rgb1{
+    background-color: #af0000;
+    }
+
+    #rgb2{
+    background-color: #2042ff;
+    }
+
+    #rgb3{
+    background-color: #44d13f;
+    }
